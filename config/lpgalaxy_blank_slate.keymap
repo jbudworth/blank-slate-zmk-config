@@ -126,7 +126,7 @@
 #ifdef TBLE_DUAL_2U
 &trans  &trans       &trans     &kp N0              &trans                 &trans            &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
-&trans     &trans     &trans    &trans   &mo ADJ_L           &none       &trans     &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
+&trans     &trans     &trans    &trans   &mo SYM_L           &none       &trans     &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
 #else
 &trans  &trans       &trans     &kp N0      &trans    &none         &none     &kp ESC        &kp DEL      &trans &trans &trans
 #endif
@@ -142,7 +142,7 @@
 #ifdef TBLE_DUAL_2U
 &trans &trans        &trans     &kp RPAR                &trans                    &trans       &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
-&trans     &trans     &trans   &trans   &trans             &none        &mo ADJ_L  &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
+&trans     &trans     &trans   &trans   &trans             &none        &mo NUM_L  &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
 #else
 &trans &trans        &trans     &kp RPAR        &trans          &trans       &trans    &trans  &trans         &trans &trans &trans
 #endif
