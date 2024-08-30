@@ -65,14 +65,14 @@
 	    then-layer = <SYM_L>;
         };
     };
-#else
-    cond_layers {
-        compatible = "zmk,conditional-layers";
-	tri_layer {
-	    if-layers = <NUM_L SYM_L>;
-	    then-layer = <ADJ_L>;
-        };
-    };
+//#else
+//    cond_layers {
+//        compatible = "zmk,conditional-layers";
+//	tri_layer {
+//	    if-layers = <NUM_L SYM_L>;
+//	    then-layer = <ADJ_L>;
+//        };
+//    };
 #endif
 
     keymap {
