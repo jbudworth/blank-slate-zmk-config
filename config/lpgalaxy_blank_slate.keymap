@@ -62,7 +62,7 @@
 		label = "TD_NUMSYM";
 		#binding-cells = <0>;
 		tapping-term-ms = <150>;
-		bindings = <&mo NUM_L>, <&mo SYM_L>;
+		bindings = <&mo NUM_L>, <&mo SYM_L>, <&mo ADJ_L>;
 	};
 
 
