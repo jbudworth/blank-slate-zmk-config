@@ -12,8 +12,8 @@
 #define QWERTY_BASE 1
 
 // #define TBLE_ORTHO   1
-#define TBLE_MIT     1
-// #define TBLE_DUAL_2U 1
+// #define TBLE_MIT     1
+#define TBLE_DUAL_2U 1
 
 #define QWE_L 0
 #define COL_L 1
@@ -103,7 +103,7 @@
  &kp LSHFT  &kp Z      &kp X      &kp C       &kp D          &kp V          &kp K            &kp H          &kp COMMA   &kp DOT    &kp SEMI      &kp RET
 #endif
 #ifdef TBLE_DUAL_2U
- &kp LCTRL  &kp LGUI   &kp LALT   &mo FUN_L         &shifty                        &kp SPACE                &mo NUM_L   &kp LALT   &kp RGUI      &kp RSHIFT
+ &kp LCTRL  &kp LGUI   &NUMSYM_L   &kp LALT         &kp SPACE                        &kp RET              &kp LEFT    &kp DOWN     &kp UP      &kp RIGHT
 #elif defined(TBLE_MIT)
  &kp LCTRL  &mo FUN_L   &kp LGUI  &kp LALT    &mo SYM_L          &kp SPACE                   &mo NUM_L      &kp LEFT    &kp DOWN     &kp UP      &kp RIGHT
 #else
@@ -119,7 +119,7 @@
  &kp TAB    &kp A      &kp R      &kp S       &kp T          &kp G          &kp M            &kp N          &kp E       &kp I      &kp O         &kp SEMI
  &kp LSHFT  &kp Z      &kp X      &kp C       &kp D          &kp V          &kp K            &kp H          &kp COMMA   &kp DOT    &kp FSLH      &kp RET
 #ifdef TBLE_DUAL_2U
- &kp LCTRL  &kp LGUI   &kp LALT   &mo FUN_L         &shifty                        &kp SPACE                &mo NUM_L   &kp LALT   &kp RGUI      &kp RSHIFT
+ &kp LCTRL  &kp LGUI   &NUMSYM_L   &kp LALT         &kp SPACE                        &kp RET              &kp LEFT    &kp DOWN     &kp UP      &kp RIGHT
 #elif defined(TBLE_MIT)
  &kp LCTRL  &mo FUN_L   &kp LGUI  &kp LALT    &mo SYM_L          &kp SPACE                   &mo NUM_L      &kp LEFT    &kp DOWN     &kp UP      &kp RIGHT
 #else
@@ -135,7 +135,7 @@
  &kp TAB    &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp SEMI      &kp QUOT
  &kp LSHFT  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp RET
 #ifdef TBLE_DUAL_2U
- &kp LCTRL  &kp LGUI   &kp LALT   &mo FUN_L         &shifty                        &kp SPACE                &mo NUM_L   &kp LALT   &kp RGUI      &kp RSHIFT
+ &kp LCTRL  &kp LGUI   &NUMSYM_L   &kp LALT         &kp SPACE                        &kp RET              &kp LEFT    &kp DOWN     &kp UP      &kp RIGHT
 #elif defined(TBLE_MIT)
  &kp LCTRL  &mo FUN_L   &kp LGUI  &kp LALT    &kp SPACE          &kp SPACE                   &NUMSYM_L      &kp LEFT    &kp DOWN     &kp UP      &kp RIGHT
 #else
@@ -152,7 +152,7 @@
 &trans     &kp F1     &kp F2    &kp F3   &kp F4    &kp F5     &kp F6     &kp MINUS  &kp EQUAL  &kp LBKT     &kp RBKT     &kp BSLH
 &trans     &kp F7     &kp F8    &kp F9   &kp F10   &kp F11    &kp F12    &kp NUHS   &kp NUBS   &kp PG_DN    &kp PG_DN    &trans
 #ifdef TBLE_DUAL_2U
-&trans  &trans       &trans     &kp N0              &trans                 &trans            &trans         &trans &trans &trans
+&trans  &trans       &trans     &trans              &trans                 &trans            &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
 &trans     &trans     &trans    &trans   &mo ADJ_L           &none       &trans     &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
 #else
@@ -168,7 +168,7 @@
 &trans     &kp F1     &kp F2   &kp F3   &kp F4    &kp F5     &kp F6     &kp UNDER  &kp PLUS   &kp LBRC     &kp RBRC     &kp BSLH
 &trans     &kp F7     &kp F8   &kp F9   &kp F10   &kp F11    &kp F12    &kp NUHS   &kp NUBS   &kp END      &kp HOME     &trans
 #ifdef TBLE_DUAL_2U
-&trans &trans        &trans     &kp RPAR                &trans                    &trans       &trans         &trans &trans &trans
+&trans &trans        &trans     &trans                &trans                    &trans       &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
 &trans     &trans     &trans   &trans   &trans             &none        &mo ADJ_L  &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
 #else
